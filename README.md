@@ -30,7 +30,7 @@ Built with a clean green-themed UI, featuring login authentication and data pers
 ## 📸 Screenshots
 
 ### Login
-![Login Page](./screenshots/login.png)
+![Login Page](./login.png)
 
 ### Employee Dashboard
 ![Employee Dashboard](./screenshots/employee-dashboard.png)
