@@ -1,12 +1,56 @@
-# React + Vite
+# GreenBoard – Employee Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based application with **Admin** and **Employee** dashboards for managing tasks.  
+Built with a clean green-themed UI, featuring login authentication and data persistence using **localStorage**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+### 🔑 Login System
+- Simple login form for Admin and Employees.
+- Credentials stored and verified from `localStorage`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🛠 Admin Dashboard
+- Create and assign tasks to employees.
+- Add task details: **Title**, **Date**, **Assigned To**, **Category**, and **Description**.
+- View overall employee performance in a table.
+- Task statistics: **New**, **In Progress**, **Completed**, and **Backlog**.
+
+### 👨‍💼 Employee Dashboard
+- View assigned tasks categorized by status.
+- Mark tasks as **Completed** or **Failed**.
+- Real-time updates reflected in task counters.
+
+### 💾 Data Persistence
+- All data (tasks, users, statuses) stored in browser `localStorage` — no backend required.
+
+---
+
+## 📸 Screenshots
+
+### Login
+![Login Page](./screenshots/login.png)
+
+### Employee Dashboard
+![Employee Dashboard](./screenshots/employee-dashboard.png)
+
+### Admin Dashboard
+![Admin Dashboard](./screenshots/admin-dashboard.png)
+
+---
+
+## 🛠 Tech Stack
+- **Frontend:** HTML, CSS, JavaScript (React.js)
+- **Styling:** Tailwind CSS
+- **Storage:** LocalStorage API
+- **Build Tool:** Vite
+
+---
+
+## 📦 Installation & Usage
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/greenboard.git
+   cd greenboard
