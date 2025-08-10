@@ -33,10 +33,10 @@ Built with a clean green-themed UI, featuring login authentication and data pers
 ![Login Page](./login.png)
 
 ### Employee Dashboard
-![Employee Dashboard](./screenshots/employee-dashboard.png)
+![Employee Dashboard](./employee-dashboard.png)
 
 ### Admin Dashboard
-![Admin Dashboard](./screenshots/admin-dashboard.png)
+![Admin Dashboard](./admin-dashboard.png)
 
 ---
 
